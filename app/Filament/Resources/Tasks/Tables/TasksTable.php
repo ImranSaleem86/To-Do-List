@@ -74,7 +74,7 @@ class TasksTable
                             ->send();
                     }),
             ])
-            ->bulkActions([
+            ->toolbarActions([
                 BulkActionGroup::make([
                     DeleteBulkAction::make(),
                 ]),
